@@ -44,18 +44,20 @@ Install Dependencies:
 
 Ensure you have Node.js installed, then run:
 
-``` npm install ```
+``` 
+npm install
+ ```
 
 Set Up Environment Variables:
 
 Create a .env file in the backend directory and add your environment variables:
 
-``
+```
 PORT=5000
 DATABASE_URL=postgresql://username:password@localhost:5432/prestige-pos
 JWT_SECRET=your_jwt_secret_key
 Replace username, password, and other values with your actual database credentials.
-``
+```
 
 Run the Backend Server:
 
